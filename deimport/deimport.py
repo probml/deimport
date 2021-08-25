@@ -6,7 +6,7 @@ def deimport(module_object=None,module=None,verbose=False):
     try:
         _deimport(module_object,module,verbose)
     except:
-         _deimport(module_object,module,verbose)
+        _deimport(module_object,module,verbose)
 
 def _deimport(module_object=None,module=None,verbose=False):
     if module==None:
